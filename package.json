@@ -1,0 +1,19 @@
+{
+  "name": "@memberstack/eslint-config",
+  "version": "1.0.0",
+  "description": "Shareable ESLint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Memberstack/eslint-config.git"
+  },
+  "author": "Memberstack Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Memberstack/eslint-config/issues"
+  },
+  "homepage": "https://github.com/Memberstack/eslint-config#readme"
+}
