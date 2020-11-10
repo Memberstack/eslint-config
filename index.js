@@ -4,11 +4,9 @@ module.exports = {
     "prettier"
   ],
   plugins: [
-    "jest",
     "@typescript-eslint"
   ],
   env: {
-    "jest": true,
     "es2020": true
   },
   parser: "@typescript-eslint/parser",
