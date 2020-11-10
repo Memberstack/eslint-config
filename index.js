@@ -1,11 +1,11 @@
 module.exports = {
   extends: [
     "airbnb",
-    "prettier"
+    "plugin:prettier/recommended"
   ],
   plugins: [
-    "@typescript-eslint",
-    "jest"
+    "jest",
+    "@typescript-eslint"
   ],
   env: {
     "jest": true,
