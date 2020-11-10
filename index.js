@@ -2,9 +2,14 @@ module.exports = {
   extends: [
     "airbnb"
   ],
+  env: {
+    "jest": true,
+    "es2020": true
+  },
   parser: "@typescript-eslint/parser",
   plugins: [
-    "@typescript-eslint"
+    "@typescript-eslint",
+    "jest"
   ],
   settings: {
     "import/resolver": {
@@ -25,6 +30,6 @@ module.exports = {
     "no-use-before-define": "off",
     "@typescript-eslint/no-use-before-define": ["error"],
     "@typescript-eslint/no-explicit-any": ["error", { "ignoreRestArgs": false }],
-    "@typescript-eslint/no-unused-vars": ["error", { "args": "none" }],
+    "@typescript-eslint/no-unused-vars": ["error", { "args": "none" }]
   }
 };
