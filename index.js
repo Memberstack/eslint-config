@@ -1,16 +1,17 @@
 module.exports = {
   extends: [
-    "airbnb"
+    "airbnb",
+    "prettier"
+  ],
+  plugins: [
+    "@typescript-eslint",
+    "jest"
   ],
   env: {
     "jest": true,
     "es2020": true
   },
   parser: "@typescript-eslint/parser",
-  plugins: [
-    "@typescript-eslint",
-    "jest"
-  ],
   settings: {
     "import/resolver": {
       "node": {

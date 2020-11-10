@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Shareable ESLint config",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "prettier.config.js"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,12 +20,24 @@
     "url": "https://github.com/Memberstack/eslint-config/issues"
   },
   "homepage": "https://github.com/Memberstack/eslint-config#readme",
-  "dependencies": {
+  "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.7.0",
     "@typescript-eslint/parser": "^4.7.0",
     "eslint": "^7.13.0",
     "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^6.15.0",
     "eslint-plugin-jest": "^24.1.0",
+    "prettier": "^2.1.2",
+    "typescript": "^4.0.5"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.7.0",
+    "@typescript-eslint/parser": "^4.7.0",
+    "eslint": "^7.13.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-jest": "^24.1.0",
+    "prettier": "^2.1.2",
     "typescript": "^4.0.5"
   }
 }
