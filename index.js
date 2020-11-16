@@ -1,16 +1,13 @@
 module.exports = {
   extends: [
     "airbnb",
-    "plugin:jest/recommended",
     "prettier"
   ],
   plugins: [
-    "@typescript-eslint",
-    "jest"
+    "@typescript-eslint"
   ],
   env: {
-    "es2020": true,
-    "jest/globals": true
+    "es2020": true
   },
   parser: "@typescript-eslint/parser",
   settings: {
