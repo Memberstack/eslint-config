@@ -1,6 +1,8 @@
 # ESlint Config
 A set of common rules for all TypeScript repositories. This module also comes with Prettier to assist with code formatting.
 
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+
 ## Installation
 This project can be installed as a dependency through GitHub:
 
