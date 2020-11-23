@@ -7,7 +7,7 @@ A set of common rules for all TypeScript repositories. This module also comes wi
 This project can be installed as a dependency through GitHub:
 
 ```
-yarn add -D git+ssh://git@github.com:Memberstack/eslint-config.git
+yarn add -D @memberstack/eslint-config
 ```
 
 Note that this ruleset is environment agnostic. It will need to be extended depending on your project and environment.
