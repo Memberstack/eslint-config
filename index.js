@@ -26,7 +26,9 @@ module.exports = {
     "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
     "import/prefer-default-export": "off",
     "quotes": ["error", "double"],
+    "no-shadow": "off",
     "no-use-before-define": "off",
+    "@typescript-eslint/no-shadow": ["error"],
     "@typescript-eslint/no-use-before-define": ["error"],
     "@typescript-eslint/no-explicit-any": ["error", { "ignoreRestArgs": false }],
     "@typescript-eslint/no-unused-vars": ["error", { "args": "none" }]
